@@ -1,0 +1,27 @@
+{
+  "name": "async-local",
+  "version": "1.0.0",
+  "description": "客户端异步测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start --reporters clear-screen,dots,coverage"
+  },
+  "keywords": [
+    "async",
+    "local-test"
+  ],
+  "author": "fairyly",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "karma": "^4.0.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-clear-screen-reporter": "^1.0.0",
+    "karma-cli": "^2.0.0",
+    "karma-coverage": "^1.1.2",
+    "karma-mocha": "^1.3.0",
+    "mocha": "^5.2.0"
+  }
+}

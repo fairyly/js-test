@@ -14,6 +14,11 @@
 
 >测试先行的优势：可以带来更加模块化，高内聚，低耦合的设计
 
+- 3-As 模式：
+  - Arrange
+  - Act
+  - Assert
+
 ## 目录
 
 - 1.测试驱动设计
@@ -27,3 +32,5 @@
 
 ## 参考
 - [JavaScript 测试驱动开发]()
+- [单元测试基础](https://docs.microsoft.com/zh-cn/visualstudio/test/unit-test-basics?view=vs-2015)
+- [3-As 模式：ArrangeActAssert](http://wiki.c2.com/?ArrangeActAssert)

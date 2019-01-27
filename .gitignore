@@ -5,6 +5,12 @@ yarn-debug.log*
 yarn-error.log*
 package-lock.json*
 coverage/
+async-test/package-lock.json*
+async-test/node_modules/
+async-test/npm-debug.log*
+async-local/package-lock.json*
+async-local/node_modules/
+async-local/npm-debug.log*
 
 # Editor directories and files
 .idea
