@@ -1,0 +1,13 @@
+//HAPPY PATH code exerpt
+//START:HAPPY_PATH
+connect: function(dbname, callback) {
+  var self = this;
+  
+  var cacheConnection = function(err, db) {
+    self.connection = db;
+    callback(null);
+  }
+  
+  MongoClient.connect(dbname, cacheConnection);
+}
+//END:HAPPY_PATH

@@ -1,0 +1,7 @@
+  Stockfetch tests
+
+    ✓ should pass this canary test
+
+    ✓ read should invoke error handler for invalid file
+
+  2 passing (9ms)

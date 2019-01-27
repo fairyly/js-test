@@ -1,0 +1,10 @@
+...
+> mocha
+  util tests
+
+    ✓ should pass this canary test
+
+    ✓ should pass if f2c returns 0C for 32F
+
+  2 passing (7ms)
+

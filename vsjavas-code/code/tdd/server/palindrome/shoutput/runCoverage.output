@@ -1,0 +1,14 @@
+  palindrome-test
+
+    ✓ should pass this canary test
+		...
+    ✓ should throw an exception if argument is missing
+
+  9 passing (10ms)
+
+============================= Coverage summary =============================
+Statements   : 100% ( 4/4 )
+Branches     : 100% ( 4/4 )
+Functions    : 100% ( 1/1 )
+Lines        : 100% ( 4/4 )
+============================================================================

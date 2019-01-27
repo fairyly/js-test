@@ -1,0 +1,15 @@
+  test server-side callback
+
+    1) should return correct lines count for a valid file
+
+  0 passing (2s)
+  1 failing
+
+  1) test server-side callback 
+    should return correct lines count for a valid file:
+     Error: timeout of 2000ms exceeded. 
+       Ensure the done() callback is being called in this test.
+  
+
+
+

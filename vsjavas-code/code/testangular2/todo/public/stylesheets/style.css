@@ -1,0 +1,44 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}    
+
+.heading {
+  font-size: 200%;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+}
+
+#newtask {
+  float: left;             
+  padding: 10px;
+  border-right: 1px solid #A52A2A;
+}
+
+#taskslist { 
+  width: 80%;
+  float: right;                       
+}
+
+a {
+  color: #00B7FF;
+}
+
+label {
+  float: left;  
+  clear: both;
+}
+
+input {
+  float: left;
+  clear: both;
+}   
+
+#submit {
+  margin-top: 10px;
+}
+
+#message {
+  color: red;
+}

@@ -1,0 +1,18 @@
+  palindrome-test
+
+    ✓ should pass this canary test
+
+    ✓ should return true for argument mom
+
+    ✓ should return true for argument dad
+
+    ✓ should return false for argument dude
+
+    ✓ should return true for argument mom mom
+
+    ✓ should return false for argument mom dad
+
+
+  6 passing (6ms)
+
+...coverage details not shown...

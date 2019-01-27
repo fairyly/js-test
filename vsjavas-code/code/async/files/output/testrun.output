@@ -1,0 +1,7 @@
+  test server-side callback
+
+    ✓ should return correct lines count for a valid file
+
+    ✓ should report error for an invalid file name
+
+  2 passing (8ms)

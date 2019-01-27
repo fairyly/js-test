@@ -1,0 +1,39 @@
+{
+  "name": "todo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha --watch --recursive test/server",
+    "test-client": "karma start --reporters clear-screen,dots",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha -- --recursive test/server",
+    "cover-client": "karma start --reporters clear-screen,dots,coverage --single-run"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "jade": "~1.11.0",
+    "mongodb": "~2.1.13",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.8",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.4",
+    "karma": "^1.1.2",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-clear-screen-reporter": "^1.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.1.1",
+    "karma-sinon": "^1.0.5",
+    "karma-sinon-chai": "^1.2.3",
+    "mocha": "^3.0.1",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0"
+  }
+}

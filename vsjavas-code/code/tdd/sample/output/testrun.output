@@ -1,0 +1,24 @@
+...
+> mocha
+  util tests
+
+    ✓ should pass this canary test
+
+    ✓ should pass if f2c returns 0C for 32F
+
+    1) should pass if f2c returns 10C for 50F
+
+  2 passing (13ms)
+  1 failing
+
+  1) Util test should pass if f2c returns 10C for 50F:
+
+      AssertionError: expected 0 to deeply equal 10
+      + expected - actual
+
+      -0
+      +10
+      
+      at Context.<anonymous> (test/util_test.js:29:24)
+
+npm ERR! Test failed.  See above for more details.

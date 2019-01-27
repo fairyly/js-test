@@ -1,0 +1,30 @@
+  Stockfetch tests
+    ✓ should pass this canary test
+    ✓ read should invoke error handler for invalid file
+    ✓ read should invoke processTickers for valid file
+    ✓ read should return error if given file is empty
+    ✓ parseTickers should return tickers
+    ✓ parseTickers should return empty array for empty content
+    ✓ parseTickers should return empty array for white-space
+    ✓ parseTickers should ignore unexpected format in content
+    ✓ processTickers should call getPrice for each ticker symbol
+    ✓ processTickers should save tickers count
+    ✓ getPrice should call get on http with valid URL
+    ✓ getPrice should send a response handler to get
+    ✓ getPrice should register handler for failure to reach host
+    ✓ processResponse should call parsePrice with valid data
+    ✓ processResponse should call processError if response failed
+    ✓ processResponse should call processError only if response failed
+    ✓ processHttpError should call processError with error details
+    ✓ parsePrice should update prices
+    ✓ parsePrice should call printReport
+    ✓ processError should update errors
+    ✓ processError should call printReport
+    ✓ printReport should send price, errors once all responses arrive
+    ✓ printReport should not send before all responses arrive
+    ✓ printReport should call sortData once for prices, once for errors
+    ✓ sortData should sort the data based on the symbols
+    ✓ getPriceForTickers should report error for invalid file
+    ✓ getPriceForTickers should respond well for a valid file (1181ms)
+
+  27 passing (1s)

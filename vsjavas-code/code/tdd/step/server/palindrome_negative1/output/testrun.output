@@ -1,0 +1,22 @@
+  palindrome-test
+
+    ✓ should pass this canary test
+
+    ✓ should return true for argument mom
+
+    ✓ should return true for argument dad
+
+    ✓ should return false for argument dude
+
+    ✓ should return true for argument mom mom
+
+    ✓ should return false for argument mom dad
+
+    ✓ should return false when argument is an empty string
+
+    ✓ should return false for argument with only two spaces
+
+
+  8 passing (7ms)
+
+...coverage details not shown...

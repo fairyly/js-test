@@ -1,0 +1,11 @@
+using database: mongodb://localhost/todouitest
+Using ChromeDriver directly...
+[launcher] Running 1 instances of WebDriver
+
+
+  ..............
+
+  14 passing (4s)
+
+[launcher] 0 instance(s) of WebDriver still running
+[launcher] chrome #1 passed

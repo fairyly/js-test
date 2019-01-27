@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--
+ ! Excerpted from "Test-Driving JavaScript Applications",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material,
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose.
+ ! Visit http://www.pragmaticprogrammer.com/titles/vsjavas for more book information.
+-->
+<html data-ng-app="sample">
+  <head>
+    <title>Greet</title>
+  </head>
+  <body>
+    <div data-ng-controller="SampleController as controller">
+      <span>{{ controller.greet }}</span>	
+    </div>
+    <script src=
+ "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.min.js">
+    </script>
+    <script src="controller.js"></script>
+  </body>
+</html>

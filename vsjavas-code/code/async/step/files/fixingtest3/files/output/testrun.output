@@ -1,0 +1,6 @@
+  test server-side callback
+
+    ✓ should return correct lines count for a valid file
+
+  1 passing (7ms)
+

@@ -1,0 +1,21 @@
+<!--
+ ! Excerpted from "Test-Driving JavaScript Applications",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material,
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose.
+ ! Visit http://www.pragmaticprogrammer.com/titles/vsjavas for more book information.
+-->
+<body>
+  <div class="heading">TO-DO</div>
+
+  <div id="taskslist">
+    <p>Number of tasks: <span id="length">{{ tasks.length }}</span>
+    <span id="message">{{ message }}</span>
+    <table>
+      <tr *ngFor ="let task of tasks">
+      <td>{{ task.name }}</td>
+      <td>{{ task.month }}/{{ task.day }}/{{ task.year }}</td>
+    </table>  
+  </div>
+</body>

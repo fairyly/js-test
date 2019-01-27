@@ -1,0 +1,19 @@
+  test server-side callback
+
+    1) should return correct lines count for a valid file
+
+  0 passing (9ms)
+  1 failing
+
+  1) test server-side callback 
+    should return correct lines count for a valid file:
+
+      Uncaught AssertionError: expected 15 to deeply equal -2319
+      + expected - actual
+
+      -15
+      +-2319
+      
+      at callback (test/files-test.js:8:27)
+      at processFile (src/files.js:8:7)
+      at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:404:3)

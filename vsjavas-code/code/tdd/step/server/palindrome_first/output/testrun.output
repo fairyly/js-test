@@ -1,0 +1,10 @@
+  palindrome-test
+
+    ✓ should pass this canary test
+
+    ✓ should return true for argument mom
+
+
+  2 passing (5ms)
+
+...coverage details not shown...

@@ -1,0 +1,12 @@
+> curl -w "\n" -X GET http://localhost:3000/tasks
+[]
+> curl -w "\n" -X POST -H "Content-Type: application/json" \
+  -d '{"name": "Practice TDD", "month": 8, "day": 10, "year": 2016}' \
+  http://localhost:3000/tasks
+task added
+> curl -w "\n" -X GET http://localhost:3000/tasks
+[{"_id":"568da96758102f0914bc93a6",
+  "name":"Practice TDD","month":8,"day":10,"year":2016}]
+> curl -w "\n" -X DELETE http://localhost:3000/tasks/568da96758102f0914bc93a6
+task deleted
+>

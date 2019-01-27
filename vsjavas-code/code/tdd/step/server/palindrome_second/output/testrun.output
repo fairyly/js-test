@@ -1,0 +1,19 @@
+  palindrome-test
+
+    ✓ should pass this canary test
+
+    ✓ should return true for argument mom
+
+    ✓ should return true for argument dad
+
+    1) should return false for argument dude
+
+
+  3 passing (6ms)
+  1 failing
+
+  1) palindrome-test should return false for argument dude:
+     AssertionError: expected true to be false
+      at Context.<anonymous> (test/palindrome-test.js:20:39)
+
+...coverage details not shown...

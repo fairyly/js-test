@@ -1,0 +1,60 @@
+  validate task tests
+    ✓ should return true for valid task
+    ✓ should return false for undefined task
+    ✓ should return false for null task
+    ✓ should return false for undefined name
+    ✓ should return false for null name
+    ✓ should return false for empty name
+    ✓ should return false for undefined month
+    ✓ should return false for null month
+    ✓ should return false for non number month
+    ✓ should return false for undefined day
+    ✓ should return false for null day
+    ✓ should return false for non number day
+    ✓ should return false for undefined year
+    ✓ should return false for null year
+    ✓ should return false for non number year
+
+  db tests
+    ✓ should pass this canary test
+    ✓ get should return null connection by default
+    ✓ close should set connection to null
+    ✓ close should close existing connection
+    ✓ connect should set connection given valid database name (42ms)
+    ✓ connect should reject invalid schema
+    ✓ connect should reject invalid name
+
+  task model tests
+    ✓ all should return all the tasks
+    ✓ get should return task with given id
+    ✓ get should return null for non-existing task
+    ✓ add should return null for valid task
+    ✓ add should return Error if task already exists
+    ✓ task.validate should refer to validateTask
+    ✓ add should call validate
+    ✓ add should handle validation failure
+    ✓ delete should send null after deleting existing task
+    ✓ delete should return Error if task not found
+    ✓ delete should return Error if task id not given
+
+  tasks routes tests
+    ✓ should register URI / for get
+    ✓ get / handler should call model's all & return result
+    ✓ should register URI /:id for get
+    ✓ get /:validid handler should call model's get & return a task
+    ✓ get /:invalidid handler should call model's get & return {}
+    ✓ should register URI / for post
+    ✓ post / handler should call model's add & return success message
+    ✓ post / handler should return error message on failure
+    ✓ should register URI /:id for delete
+    ✓ delete /:validid handler should call model's delete & return success
+    ✓ delete /:invalidid handler should return error message
+
+  44 passing (400ms)
+
+=============================== Coverage summary ===============================
+Statements   : 100% ( 59/59 )
+Branches     : 100% ( 27/27 )
+Functions    : 100% ( 19/19 )
+Lines        : 100% ( 59/59 )
+================================================================================

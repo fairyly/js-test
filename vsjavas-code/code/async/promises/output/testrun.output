@@ -1,0 +1,16 @@
+  test promises
+
+    ✓ should return correct lines count for a valid file
+
+    ✓ should return correct lines count - using return
+
+    ✓ should return correct lines count - using eventually
+
+    ✓ should return correct lines count - using no return
+
+    ✓ should report error for an invalid file name
+
+    ✓ should report error for an invalid file name - using with
+
+
+  6 passing (12ms)

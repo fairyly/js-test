@@ -1,0 +1,24 @@
+{
+  "name": "geolocation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start --reporters clear-screen,dots --single-run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "karma": "^1.1.2",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-clear-screen-reporter": "^1.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-mocha": "^1.1.1",
+    "mocha": "^3.0.1"
+  }
+}

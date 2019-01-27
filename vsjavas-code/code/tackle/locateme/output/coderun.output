@@ -1,0 +1,6 @@
+> http-server -a localhost -p 8080 -c1
+
+Starting up http-server, serving ./
+Available on:
+  http://localhost:8080
+Hit CTRL-C to stop the server

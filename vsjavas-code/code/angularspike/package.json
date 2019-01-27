@@ -1,0 +1,25 @@
+{
+  "name": "angularspike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -a localhost -p 8080 -c1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  	"core-js": "^2.4.0",
+    "@angular/common": "^2.0.0-rc.4",
+    "@angular/compiler": "^2.0.0-rc.4",
+    "@angular/core": "^2.0.0-rc.4",    
+    "@angular/forms": "0.2.0",
+    "@angular/http": "2.0.0-rc.4",
+    "@angular/platform-browser": "^2.0.0-rc.4",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.4",
+    "reflect-metadata": "0.1.3",
+    "rxjs": "^5.0.0-beta.6",
+    "http-server": "^0.9.0",
+    "zone.js": "^0.6.12"
+  }
+}

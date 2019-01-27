@@ -1,0 +1,13 @@
+> protractor
+
+using database: mongodb://localhost/todouitest
+[11:57:53] I/direct - Using ChromeDriver directly...
+[11:57:53] I/launcher - Running 1 instances of WebDriver
+
+   
+  ......
+
+  6 passing (4s)
+
+[11:57:58] I/launcher - 0 instance(s) of WebDriver still running
+[11:57:58] I/launcher - chrome #01 passed

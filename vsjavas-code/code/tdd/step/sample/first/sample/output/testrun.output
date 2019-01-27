@@ -1,0 +1,6 @@
+...
+> mocha
+  util tests
+    ✓ should pass this canary test
+
+  1 passing (6ms)
