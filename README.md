@@ -31,6 +31,7 @@
 
 
 ## 参考
-- [JavaScript 测试驱动开发]()
+- [Test-Driving JavaScript Applications(英文)](https://pragprog.com/book/vsjavas/test-driving-javascript-applications)
+- [JavaScript 测试驱动开发(中文)](http://www.ituring.com.cn/book/1920#)
 - [单元测试基础](https://docs.microsoft.com/zh-cn/visualstudio/test/unit-test-basics?view=vs-2015)
 - [3-As 模式：ArrangeActAssert](http://wiki.c2.com/?ArrangeActAssert)
