@@ -4,7 +4,8 @@
   "description": "test-demo",
   "main": "index.js",
   "scripts": {
-    "test": "karma start --reporters clear-screen,dots,coverage"
+    "test": "karma start --reporters clear-screen,dots,coverage",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   },
   "keywords": [
     "test"
