@@ -5,6 +5,7 @@
 
 * 增加 express 测试驱动开发 ([ac33723](https://github.com/fairyly/js-test/commit/ac33723))
 * 增加 express 测试驱动开发 ([6d27ae1](https://github.com/fairyly/js-test/commit/6d27ae1))
+* 增加目录 ([17d41da](https://github.com/fairyly/js-test/commit/17d41da))
 * 增加目录 ([eaf2fd6](https://github.com/fairyly/js-test/commit/eaf2fd6))
 
 
