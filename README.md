@@ -30,6 +30,9 @@
   - [1.1.5 异步测试](https://github.com/fairyly/js-test/blob/master/1.1.5%20%E5%BC%82%E6%AD%A5%E6%B5%8B%E8%AF%95.md)
   - [1.1.6 异步测试-客户端回调测试](https://github.com/fairyly/js-test/blob/master/1.1.6%20%E5%BC%82%E6%AD%A5%E6%B5%8B%E8%AF%95-%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%9B%9E%E8%B0%83%E6%B5%8B%E8%AF%95.md)
   - [1.1.7 测试 promise](https://github.com/fairyly/js-test/blob/master/1.1.7%20%E6%B5%8B%E8%AF%95%20promise.md)
+  - [1.1.8 依赖处理](https://github.com/fairyly/js-test/blob/master/1.1.8%20%E4%BE%9D%E8%B5%96%E5%A4%84%E7%90%86.md)
+  - [1.1.9 Node.js 测试驱动开发](https://github.com/fairyly/js-test/blob/master/1.1.9%20Node.js%20%E6%B5%8B%E8%AF%95%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91.md)
+  - [1.2.1 Express 测试驱动开发](https://github.com/fairyly/js-test/blob/master/1.2.1%20Express%20%E6%B5%8B%E8%AF%95%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91.md)
 
 
 
