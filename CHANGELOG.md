@@ -1,6 +1,11 @@
 ## [1.0.3](https://github.com/fairyly/js-test/compare/v1.0.2...v1.0.3) (2019-02-23)
 
 
+### Bug Fixes
+
+* 修改目录 ([14d05b4](https://github.com/fairyly/js-test/commit/14d05b4))
+
+
 ### Features
 
 * 增加 express 测试驱动开发 ([ac33723](https://github.com/fairyly/js-test/commit/ac33723))
